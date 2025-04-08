@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DisorderStore - Top Up Game Cepat & Aman</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #111;
+      color: #f0f0f0;
+    }
+    header {
+      background-color: #1a1a1a;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: #ff0055;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #ccc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #ff0055;
+    }
+    #hero {
+      text-align: center;
+      padding: 50px 20px;
+      background: linear-gradient(to bottom, #1a1a1a, #000);
+    }
+    #hero h2 {
+      font-size: 2em;
+    }
+    .cta-button {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #ff0055;
+      color: white;
+      text-decoration: none;
+      margin-top: 20px;
+      border-radius: 5px;
+    }
+    .cta-button:hover {
+      background-color: #e6004c;
+    }
+    section {
+      padding: 40px 20px;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .game-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+    .game-card {
+      background-color: #222;
+      border: 1px solid #333;
+      border-radius: 10px;
+      padding: 20px;
+      width: 200px;
+      text-align: center;
+    }
+    .game-card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .game-card h3 {
+      margin: 15px 0 10px;
+    }
+    .game-card a {
+      text-decoration: none;
+      background-color: #ff0055;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 5px;
+      display: inline-block;
+    }
+    .game-card a:hover {
+      background-color: #e6004c;
+    }
+    ol {
+      max-width: 600px;
+      margin: auto;
+      line-height: 1.8;
+    }
+    p {
+      max-width: 600px;
+      margin: auto;
+      line-height: 1.6;
+    }
+    footer {
+      background-color: #1a1a1a;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>DisorderStore</h1>
+    <nav>
+      <a href="#games">Top Up</a>
+      <a href="#how">Cara Order</a>
+      <a href="#about">Tentang Kami</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>Top Up Game Cepat & Aman</h2>
+    <p>Dapatkan diamond, UC, dan koin game favoritmu dalam hitungan menit!</p>
+    <a href="#games" class="cta-button">Mulai Top Up</a>
+  </section>
+
+  <section id="games">
+    <h2>Pilih Game Kamu</h2>
+    <div class="game-list">
+      <div class="game-card">
+        <img src="https://via.placeholder.com/200x120?text=MLBB" alt="Mobile Legends" />
+        <h3>Mobile Legends</h3>
+        <a href="#">Top Up Sekarang</a>
+      </div>
+      <div class="game-card">
+        <img src="https://via.placeholder.com/200x120?text=Free+Fire" alt="Free Fire" />
+        <h3>Free Fire</h3>
+        <a href="#">Top Up Sekarang</a>
+      </div>
+      <div class="game-card">
+        <img src="https://via.placeholder.com/200x120?text=PUBG+Mobile" alt="PUBG Mobile" />
+        <h3>PUBG Mobile</h3>
+        <a href="#">Top Up Sekarang</a>
+      </div>
+      <div class="game-card">
+        <img src="https://via.placeholder.com/200x120?text=Valorant" alt="Valorant" />
+        <h3>Valorant</h3>
+        <a href="#">Top Up Sekarang</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="how">
+    <h2>Cara Order</h2>
+    <ol>
+      <li>Pilih game dan nominal top up</li>
+      <li>Masukkan ID game dan server</li>
+      <li>Lakukan pembayaran (OVO, Dana, QRIS, dll)</li>
+      <li>Saldo masuk dalam hitungan menit</li>
+    </ol>
+  </section>
+
+  <section id="about">
+    <h2>Tentang Kami</h2>
+    <p>DisorderStore adalah platform top up game yang mengutamakan kecepatan, keamanan, dan kemudahan transaksi. Kami hadir dari gamer untuk gamer, siap melayani kebutuhan kamu setiap hari!</p>
+  </section>
+
+  <section id="contact">
+    <h2>Kontak Kami</h2>
+    <p>WhatsApp: 08xxxxxxxxxx</p>
+    <p>Instagram: <a href="https://instagram.com/disorderstore.id" target="_blank" style="color:#ff0055;">@disorderstore.id</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 DisorderStore. All Rights Reserved.
+  </footer>
+</body>
+</html>
